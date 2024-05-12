@@ -38,7 +38,7 @@
     "@types/node": "20.12.11",
     "aws-cdk-lib": "2.141.0",
     "husky": "9.0.11",
-    "tsx": "4.10.0"
+    "tsx": "4.10.1"
   },
   "lint-staged": {
     "*.ts": [
