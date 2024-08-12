@@ -1,5 +1,5 @@
-import { stat } from 'node:fs/promises'
 import run from '@bifravst/run'
+import { stat } from 'node:fs/promises'
 import { simulatorCALocations } from './locations.js'
 
 export const createCA = async (
