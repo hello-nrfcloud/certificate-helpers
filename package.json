@@ -36,7 +36,7 @@
     "@commitlint/config-conventional": "19.2.2",
     "@types/node": "20.16.1",
     "aws-cdk-lib": "2.153.0",
-    "husky": "9.1.4",
+    "husky": "9.1.5",
     "tsx": "4.17.0"
   },
   "lint-staged": {
