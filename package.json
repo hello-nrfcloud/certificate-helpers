@@ -35,7 +35,7 @@
     "@bifravst/prettier-config": "1.1.8",
     "@commitlint/config-conventional": "19.8.1",
     "@types/node": "22.15.29",
-    "aws-cdk-lib": "2.199.0",
+    "aws-cdk-lib": "2.200.1",
     "husky": "9.1.7",
     "tsx": "4.19.4"
   },
