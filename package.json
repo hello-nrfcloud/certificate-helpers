@@ -31,14 +31,15 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "@bifravst/eslint-config-typescript": "6.4.4",
-    "@bifravst/prettier-config": "1.1.17",
-    "@commitlint/config-conventional": "19.8.1",
-    "@types/node": "22.20.1",
-    "aws-cdk-lib": "2.261.0",
+    "@bifravst/eslint-config-typescript": "8.0.0",
+    "@bifravst/prettier-config": "2.0.0",
+    "@commitlint/config-conventional": "21.2.2",
+    "@types/node": "26.2.0",
+    "@typescript/native": "npm:typescript@7.0.2",
+    "aws-cdk-lib": "2.265.0",
     "check-node-version": "4.2.1",
     "husky": "9.1.7",
-    "tsx": "4.23.12"
+    "typescript": "npm:@typescript/typescript6@6.0.2"
   },
   "lint-staged": {
     "*.ts": [
@@ -50,7 +51,7 @@
     ]
   },
   "engines": {
-    "node": ">=22",
+    "node": ">=24.19.0 <25",
     "npm": ">=12.0.2 <13"
   },
   "release": {
@@ -81,6 +82,7 @@
   ],
   "prettier": "@bifravst/prettier-config",
   "dependencies": {
-    "@bifravst/run": "1.2.0"
+    "@bifravst/run": "2.0.1",
+    "chalk": "6.x"
   }
 }
