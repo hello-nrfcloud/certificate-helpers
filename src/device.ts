@@ -1,5 +1,5 @@
 import run from '@bifravst/run'
-import { deviceCertificateLocations } from './locations.js'
+import { deviceCertificateLocations } from './locations.ts'
 
 export const signDeviceCertificate = async ({
 	dir,

@@ -1,15 +1,12 @@
 import run from '@bifravst/run'
 import { stat } from 'node:fs/promises'
-import { simulatorCALocations } from './locations.js'
+import { simulatorCALocations } from './locations.ts'
 
 export const createCA = async (
 	destinationFolder: string,
 	CN: string,
 	email?: string,
-): Promise<{
-	privateKey: string
-	certificate: string
-}> => {
+): Promise<{ privateKey: string; certificate: string }> => {
 	// CA certificate
 	const certificates = simulatorCALocations(destinationFolder)
 

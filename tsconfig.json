@@ -16,6 +16,9 @@
     "noUnusedLocals": true,
     "noEmit": true,
     "verbatimModuleSyntax": true,
-    "types": ["node"]
+    "types": ["node"],
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "rootDir": "./src"
   }
 }

@@ -1,15 +1,12 @@
 import run from '@bifravst/run'
 import chalk from 'chalk'
 import { stat } from 'node:fs/promises'
-import { productionRunCALocations } from './locations.js'
+import { productionRunCALocations } from './locations.ts'
 
 export const ensureProductionRunCACertificate = async (
 	dir: string,
 	productionRun: number,
-): Promise<{
-	privateKey: string
-	certificate: string
-}> => {
+): Promise<{ privateKey: string; certificate: string }> => {
 	const { privateKey, certificate } = productionRunCALocations(
 		dir,
 		productionRun,
