@@ -84,6 +84,6 @@
   "prettier": "@bifravst/prettier-config",
   "dependencies": {
     "@bifravst/run": "2.0.1",
-    "chalk": "6.x"
+    "chalk": "6.0.1"
   }
 }
