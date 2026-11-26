@@ -15,8 +15,9 @@ Helper functions for creating device certificates.
 
 ## Node & NPM
 
-This project requires Node.js `>=24.19.0 <25` and npm `>=12.2.3 <13` (enforced
-via `check-node-version` on `npm install` and `npm ci`).
+This project requires Node.js `>=24.19.0 <25` or `>=26.13.1 <27` and npm
+`>=12.2.3 <13` (enforced via `check-node-version` on `npm install` and
+`npm ci`).
 
 The check is skipped during `npm publish` and `npm pack`, because
 `semantic-release` bundles its own npm (`@semantic-release/npm` depends on
